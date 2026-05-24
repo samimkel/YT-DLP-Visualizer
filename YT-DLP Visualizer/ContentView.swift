@@ -47,7 +47,7 @@ struct ContentView: View {
             .ignoresSafeArea()
             
             // --- MAIN INTERFACE CONTENT ---
-            VStack(spacing: 15) {
+            VStack(spacing: 9) {
                 
                 // Üst Başlık ve Logo Alanı (Premium Native macOS App Logo & Header)
                 HStack(spacing: 15) {
@@ -246,7 +246,7 @@ struct ContentView: View {
                             }
                         }
                     }
-                    .frame(height: 120)
+                    .frame(height: 150)
                     .background(Color(NSColor.textBackgroundColor).opacity(0.85)) // Hafif transparanlık katıldı
                     .cornerRadius(5)
                 }
